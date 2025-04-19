@@ -1,0 +1,48 @@
+baseURL: https://example.org/
+languageCode: zh-cn
+title: DoJo
+theme: PaperMod
+
+params:
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: false
+  homeInfoParams:
+    Title: "有些东西无法分类，只能慢慢编织。"
+    Content: "这里记录一些尝试，把混乱编织成系统，把碎片变成路径。不是答案，只是探索的痕迹。"
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: twitter
+      url: "https://twitter.com/"
+
+menu:
+  main:
+    - identifier: 前端开发
+      name: 前端开发
+      url: /frontend/
+      weight: 10
+    - identifier: 后端开发
+      name: 后端开发
+      url: /backend/
+      weight: 20
+    - identifier: 移动开发
+      name: 移动开发
+      url: /mobile/
+      weight: 30
+    - identifier: 数据科学
+      name: 数据科学
+      url: /datascience/
+      weight: 40
+    - identifier: 开发工具
+      name: 开发工具
+      url: /tools/
+      weight: 50
+    - identifier: 归档
+      name: 归档
+      url: /archives/
+      weight: 60
